@@ -1,2 +1,51 @@
-<p>Hello, here is your To-Do-List!</p>
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <!--Silkscreen-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <!--Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        body {
+          background-color: white;
+          color: rgb(0, 153, 255); 
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
 
+        h1 {
+            font-family: 'Silkscreen',sans-serif;
+        }
+
+        button {
+            background-color: rgb(0, 153, 255); /* Cor de fundo */
+            color: white; /* Cor do texto */
+            padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+            font-size: 16px; /* Tamanho da fonte */
+            border: none; /* Remover a borda */
+            border-radius: 5px; /* Borda arredondada */
+            cursor: pointer; /* Cursor ao passar o mouse */
+        }
+      </style>
+      <title>To-Do List</title>
+</head>
+<body>
+    <h1>Bem-vindo à sua To-Do List!</h1>
+    <p>Vamos começar?</p>
+<form action="/lista" method="GET">
+    <button type="submit">Começar</button>
+</form>
+</body>
+</html>
